@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Triangles</title>
+<style>
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:Arial;background:#eef3ff;}
+img {div border: double;}
+
+.top{background:#1f4fd8;color:white;text-align:center;padding:60px;}
+.top h1{font-size:44px;margin:0;}
+.top p{font-size:18px;}
+.top button{padding:10px 20px;border:none;background:#3b6cff;color:white;cursor:pointer;}
+
+.main{background:white;width:85%;margin:40px auto;padding:30px;border-radius:15px;box-shadow:0 0 10px #aab4ff;text-align:center;}
+.main h2{color:#1f4fd8;font-size:32px;}
+
+.line{width:60px;height:4px;background:#3b6cff;margin:10px auto 20px;}
+
+.boxes{display:flex;justify-content:space-between;flex-wrap:wrap;margin-top:30px;}
+
+.box{background:#e8eeff;width:24%;padding:25px;min-height:360px;border-radius:15px;box-shadow:2px 2px 8px #9aa7ff;box-sizing:border-box;}
+.box img{width:80px;}
+.box h3{color:#1f4fd8;font-size:24px;}
+.box p{font-size:17px;}
+
+.box img{width:230px;margin-bottom:5px;}
+
+
+
+@media(max-width:900px){.box{width:100%;margin-bottom:20px;}}+</style>
+</head>
+
+<body>
+
+<div class="top">
+<h1>Triangles and its properties</h1>
+
+<p>A website that covers everything you need to know about Triangles</p>
+<button onclick="goDown()">Explore Now</button>
+
+
+</div>
+
+<div class="main">
+<h2>Triangles and Its properties </h2>
+<div class="line"></div>
+
+<p>Explore the world of triangles by starting with their basic concepts and properties.</p>
+
+<div class="boxes">
+
+<div class="box">
+<a href="triangle1.html">
+<img src="triangle1.png";class="big">
+</a>
+
+<h3>Types of Many Triangles</h3>
+<p>This section explains the different types of triangles based on their sides and angles, such as equilateral, isosceles, scalene, acute, obtuse, and right-angled triangles.</p>
+</div>
+
+<div class="box">
+<a href="triangle2.html">
+<img src="triangle2.jpg"class="big">
+</a>
+<h3>Properties of Triangles</h3>
+<p>This section describes the important properties of triangles, including the angle sum property, relationships between sides and angles.<p>
+</div>
+
+<div class="box">
+<a href="triangle3.html">
+<img src="triangle67.jpg">
+</a>
+<h3> Pythagoras and his contributions</h3>
+<p>This section introduces Pythagoras and explains his famous theorem, which shows the relationship between the sides of a right-angled triangle..</p>
+</div>
+
+<div class="box">
+<a href="triangle4.html">
+<img src="triangle4.jpg" class="big">
+</a>
+<h3> Application of Triangles </h3>
+<p>This section focuses on how triangles are used in real life, such as in buildings, bridges, road signs, and design</p>
+</div>
+
+</div>
+</div>
+<script>
+function goDown(){
+document.querySelector(".main").scrollIntoView();
+}
+</script>
+</body>
+</html>
