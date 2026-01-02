@@ -1,1 +1,0 @@
-# Triangle-and-its-properties
